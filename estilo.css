@@ -1,0 +1,287 @@
+body{
+    background:olivedrab;
+    font-family: cursive;
+}
+
+.logo{
+    margin: auto;
+    height:80px;
+    width:1000px;
+    border-color: grey;
+    border-style:solid;
+    border-radius: 10px 10px 10px 10px;
+    color:white;
+    font-size: 23px;
+    text-align: center;
+    background: greenyellow;
+}
+
+.logo:hover{
+    color: black;
+    transition: 3s;
+    background: grey;
+}
+
+/*inicio de menu despegable */
+
+.header{
+	margin:auto;
+	width:600px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 16px;
+}
+			
+ul, ol {
+	list-style:none;
+}
+			
+.nav > li {
+	float:left;
+}
+			
+.nav li a {
+	background-color:grey;
+	color:#fff;
+	text-decoration:none;
+	padding:10px 12px;
+	display:block;
+}
+			
+.nav li a:hover {
+	background-color:#434343;
+	color: green;
+}
+			
+.nav li ul {
+	display:none;
+	position:absolute;
+	min-width:140px;
+}
+			
+.nav li:hover > ul {
+	display:block;
+}
+			
+.nav li ul li {
+	position:relative;
+}
+			
+.nav li ul li ul {
+	right:-140px;
+	top:0px;
+}
+
+/* fin del menu*/
+
+.ventas1{
+    margin:auto;
+    margin-top: 100px;
+    margin-left:200px;
+    background: grey;
+    width:200px;
+    height:300px;
+    color:black;
+    text-align: center;
+    border-color: white;
+    border-style:solid;
+}
+
+.ventas2{
+    margin:auto;
+    margin-top: -305px;
+    margin-left:500px;
+    background: skyblue;
+    width:200px;
+    height:300px;
+    color:white;
+    text-align: center;
+    border-color: black;
+    border-style:solid;
+}
+
+.botones{
+    background: skyblue;
+}
+
+.ventas1:hover{
+    background: skyblue;
+    color:white;
+    border-color: black;
+    border-style:solid;
+    transition: 3s;
+}
+
+.ventas2:hover{
+    background: grey;
+    color:black;
+    border-color: white;
+    border-style:solid;
+    transition: 3s;
+}
+
+.beneficios{
+    margin:auto;
+    margin-top: 50px;
+    margin-left: 150px;
+    width: 600px;
+    height: 300px;
+    background: greenyellow;
+    border-color: green;
+    border-style:solid;
+    padding: 5px 5px 5px 5px;   
+    border-radius: 10px 10px 10px 10px; 
+    text-align: center;
+}
+
+.beneficios:hover{
+    transition: 3s;
+    background: khaki;
+    color: lime;
+}
+
+.comentarios{
+    margin: auto;
+    margin-right: 100px;
+    margin-top: -700px;
+    background: khaki;
+    width: 200px;
+    height: 650px;
+    border-color: white;
+    border-style:solid;
+    padding: 3px 3px 3px 3px;
+    border-radius: 10px 10px 10px 10px;
+    text-align: center;
+    color: orangered;
+}
+
+.comentarios:hover{
+    background: limegreen;
+    color: white;
+    border-color: black;
+    transition: 3s;
+}
+
+.ima{
+    background: url(mision.jpg);
+    background-size: cover;
+    margin: auto;
+    margin-left: 200px;
+    margin-top: 100px;
+    width: 300px;
+    height: 400px;
+    border-color: grey;
+    border-style:solid;
+}
+
+.mision{
+    margin: auto;
+    margin-left: 520px;
+    margin-top: -400px;
+    background:khaki;
+    width:500px;
+    height: 150px;
+    border-color: white;
+    border-style:solid;
+    padding: 5px 5px 5px 5px;
+}
+
+.mision:hover{
+    background:mediumaquamarine;
+    transition: 2s;
+}
+
+.vision{
+    margin: auto;
+    margin-left: 520px;
+    margin-top: 50px;
+    background:greenyellow;
+    width:500px;
+    height: 150px;
+    border-color: white;
+    border-style:solid;
+    padding: 5px 5px 5px 5px;
+}
+
+.vision:hover{
+    background:springgreen;
+    transition: 2s;
+}
+
+.boton_regresar{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #1883ba;
+    border-radius: 6px;
+    border: 2px solid #0016b0;
+  }
+
+  .pro1{
+    background: url(producto1.jpg);
+    background-size: cover;
+    margin: auto;
+    margin-left: 200px;
+    margin-top: 100px;
+    width: 150px;
+    height: 150px;
+    border-color: grey;
+    border-style:solid;
+  }
+
+  .des1{
+    margin: auto;
+    margin-left: 400px;
+    margin-top: -160px;
+    background:khaki;
+    width:500px;
+    height: 150px;
+    border-color: white;
+    border-style:solid;
+    padding: 5px 5px 5px 5px;
+  }
+
+  .des1:hover{
+    background:mediumaquamarine;
+    transition: 2s;
+  }
+
+  .pro2{
+    background: url(producto2.jpg);
+    background-size: cover;
+    margin: auto;
+    margin-left: 800px;
+    margin-top: 75px;
+    width: 150px;
+    height: 150px;
+    border-color: grey;
+    border-style:solid;
+  }
+
+  .des2{
+    margin: auto;
+    margin-left: 200px;
+    margin-top: -175px;
+    background:lime;
+    width:530px;
+    height: 150px;
+    border-color: white;
+    border-style:solid;
+    padding: 5px 5px 5px 5px;
+  }
+
+  .des2:hover{
+    background:springgreen;
+    transition: 2s;
+  }
+
+  .formulario{
+      margin: auto;
+      margin-top: 100px;
+      margin-left: 500px;
+      border-color: white;
+      border-style:solid;
+      width:320px;
+      border-radius: 10px 10px 10px 10px;
+  }
